@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center text-neutral-900 bg-transparent backdrop-blur max-w-7xl mx-auto px-4 py-3 border-b-2 border-neutral-100">
          <img src={logo} alt="logo" width={120} height={24}/>
 
-         <div className="hidden md:flex space-x-6">
+         <div className="hidden lg:flex space-x-6">
             <a href="#products" className="hover:font-medium transition flex">Products <span><RiArrowDownSLine /></span></a>
             <a href="#about" className="hover:font-medium transition flex">About Us <span><RiArrowDownSLine /></span></a>
             <a href="#resources" className="hover:font-medium transition flex">Resources <span><RiArrowDownSLine /></span></a>
@@ -23,12 +23,12 @@ const Navbar = () => {
             <a href="#Contact" className="hover:font-medium transition">Contacts</a>
          </div>
 
-         <div className="hidden md:flex space-x-4 items-center">
-            <a href="#" className="hover:font-medium">Login</a>
-            <a href="#" className=" px-4 py-2 bg-[#01382e] text-white hover:bg-[#011a15]">Request Demo</a>
+         <div className="hidden lg:flex space-x-4 items-center">
+            <a href="#" className="font-medium">Login</a>
+            <a href="#" className=" px-4 py-2 bg-[#01382e] font-medium text-white hover:bg-[#011a15]">Request Demo</a>
          </div>
 
-         <div className="md:hidden">
+         <div className="lg:hidden">
             <button onClick={toggleMenu} className="text-neutral-900 focus:outline-none" aria-label={isOpen ? "Close Menu" : "Open Menu"}>
               {isOpen ? <RiCloseFill /> : <RiMenu3Line />}
             </button>
