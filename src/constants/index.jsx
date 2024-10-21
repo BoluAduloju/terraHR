@@ -1,7 +1,7 @@
-import StreamLabsLogo from "../assets/streamlabs-logo.png";
-import BroadcastlyLogo from "../assets/broadcastly-logo.png";
-import LiveStreamerLogo from "../assets/livestreamer-logo.png";
-import CloudCastLogo from "../assets/cloudcast-logo.png";
+import KudaLogo from "../assets/kuda.png";
+import PiggyvestLogo from "../assets/piggyvest.png";
+import TixafricaLogo from "../assets/tixafrica.png";
+import MoniepointLogo from "../assets/moniepoint.png";
 
 import streamImage from "../assets/streamer.jpeg";
 import chart from "../assets/chart.png";
@@ -29,19 +29,19 @@ export const HERO_CONTENT = {
   badgeText: "New Feature: Introducing automated employee performance tracker🎉",
   mainHeading: "The all-in-one workspace for everything HR",
   subHeading:
-    "From HR processes to payroll Optimize your efficiency, track real-time analytics, and make precise decision effortlessly—all in one place, for startups and big tech companies.",
+    "From HR processes to payroll optimize your efficiency, track real-time analytics, and make precise decision effortlessly—all in one place, for startups and big tech companies.",
   callToAction: {
     primary: "Start Free Trial",
     secondary: "Request a Demo",
   },
-  trustedByText: "Trusted by Leading Companies",
+  trustedByText: "TRUSTED BY LEADING COMPANIES",
 };
 
 export const BRAND_LOGOS = [
-  { src: StreamLabsLogo, alt: "StreamLabs" },
-  { src: BroadcastlyLogo, alt: "Broadcastly" },
-  { src: LiveStreamerLogo, alt: "LiveStreamer" },
-  { src: CloudCastLogo, alt: "CloudCast" },
+  { src: KudaLogo, alt: "Kuda" },
+  { src: PiggyvestLogo, alt: "Piggyvest" },
+  { src: TixafricaLogo, alt: "Tixafrica" },
+  { src: MoniepointLogo, alt: "Moniepoint" },
 ];
 
 export const HOW_IT_WORKS_CONTENT = {
