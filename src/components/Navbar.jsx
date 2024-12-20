@@ -11,7 +11,7 @@ const Navbar = () => {
        setIsOpen(!isOpen)
   }
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 m-2">
+    <nav className="fixed top-0 left-0 right-0 z-50 ">
       <div className="flex justify-between items-center text-neutral-900 bg-transparent backdrop-blur max-w-7xl mx-auto px-4 py-3 border-b-2 border-neutral-100">
          <img src={logo} alt="logo" width={120} height={24}/>
 
