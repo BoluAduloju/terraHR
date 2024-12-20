@@ -7,7 +7,7 @@ import streamImage from "../assets/streamer.jpeg";
 import chart from "../assets/chart.png";
 import optimize from "../assets/optimize.jpeg";
 import audienceEngagementImage from "../assets/audience.jpeg";
-import monetizeImage from "../assets/monetize.jpeg";
+import reportImage from "../assets/monetize.jpeg";
 import automationImage from "../assets/automation.jpeg";
 import user1 from "../assets/user1.jpeg";
 import user2 from "../assets/user2.jpeg";
@@ -47,7 +47,7 @@ export const BRAND_LOGOS = [
 export const HOW_IT_WORKS_CONTENT = {
   sectionTitle: "How it works!",
   sectionDescription:
-    "Get up and running with our 5-step process. From setup to performance tracking, we've got everything you need to elevate your HR processes.",
+    "Get up and running with our 6-step process. From setup to performance tracking, we've got everything you need to elevate your HR processes.",
   steps: [
     {
       title: "Set Up Your Workspace",
@@ -84,6 +84,13 @@ export const HOW_IT_WORKS_CONTENT = {
         "Use advanced automation tools to manage your schedule, alerts, and analytics effortlessly.",
       imageSrc: automationImage,
       imageAlt: "Workflow Automation",
+    },
+    {
+      title: "Get Detailed Performance Reports",
+      description:
+        "Track your performance and analytics seamlessly with detailed report.",
+      imageSrc: reportImage,
+      imageAlt: "Performance Reports",
     },
   ],
 };
