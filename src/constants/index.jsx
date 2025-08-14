@@ -50,14 +50,14 @@ export const HOW_IT_WORKS_CONTENT = {
     "Get up and running with our 6-step process. From setup to performance tracking, we've got everything you need to elevate your HR processes.",
   steps: [
     {
-      title: "Set Up Your Workspace",
+      title: " 01 - Set Up Your Workspace",
       description:
         "Easily configure your workspace with our user-friendly tools. Invite employees in minutes.",
       imageSrc: streamImage,
       imageAlt: "workspace Setup",
     },
     {
-      title: "Invite employees to your workspace",
+      title: " 02 - Invite employees to your workspace",
       description:
         "Interact with your employee in real-time through custom alerts, chat overlays, and live notifications.",
       imageSrc: audienceEngagementImage,
@@ -65,28 +65,28 @@ export const HOW_IT_WORKS_CONTENT = {
       users: [user1, user2, user3, user5],
     },
     {
-      title: "Track and Analyze Performance",
+      title: " 03 - Track and Analyze Performance",
       description:
         "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",
       imageSrc: chart,
       imageAlt: "Performance Analytics",
     },
     {
-      title: "Optimize Your HR procesess Settings",
+      title: " 04 - Optimize Your HR procesess Settings",
       description:
         "Fine-tune your HR processes for optimal performance, ensuring smooth transition with your workflows.",
       imageSrc: optimize,
       imageAlt: "Optimize Settings",
     },
     {
-      title: "Automate Your Workflows",
+      title: " 05 - Automate Your Workflows",
       description:
         "Use advanced automation tools to manage your schedule, alerts, and analytics effortlessly.",
       imageSrc: automationImage,
       imageAlt: "Workflow Automation",
     },
     {
-      title: "Get Detailed Performance Reports",
+      title: " 06 - Get Detailed Performance Reports",
       description:
         "Track your performance and analytics seamlessly with detailed report.",
       imageSrc: reportImage,
